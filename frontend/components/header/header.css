@@ -1,0 +1,54 @@
+.header-banner {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(353deg, #a71d31 50%, #3f0d12 30%);
+  z-index: 0;
+}
+
+.header-banner::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../../assets/images/drum-1287910.png);
+  background-size: contain;
+  background-position: left center;
+  background-repeat: no-repeat;
+  filter: invert(100%);
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .header-banner::after {
+    background: none;
+  }
+}
+
+.header-banner h1 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.header-banner .call-to-action {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.header-banner .title {
+  background-color: #ff8f8f33;
+  padding: 2rem 5rem;
+  z-index: 5;
+  color: white;
+  box-shadow: 1px 1px 6px #0000001f;
+}
+
+.header-banner .subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

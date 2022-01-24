@@ -1,0 +1,39 @@
+footer {
+  background-color: #353535;
+  color: #ececec;
+
+  margin-top: 3rem;
+}
+footer .container {
+  padding: 3rem 0;
+}
+
+footer .copyright {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 0.5rem;
+  color: #818181;
+}
+
+footer div.links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer div.links-container .links {
+  flex: 1 1 33.333%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer div.links-container .icon-links i {
+  font-size: 3rem;
+  color: var(--link-color);
+}
+
+footer div.links-container .links a:hover,
+footer div.links-container .icon-links i:hover {
+  color: aliceblue;
+}

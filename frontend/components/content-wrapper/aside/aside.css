@@ -1,0 +1,34 @@
+aside {
+  flex: 0 0 25%;
+}
+
+aside .title {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+aside .category {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+aside .category .item {
+  list-style: none;
+}
+
+aside .category .item a {
+  font-size: 1rem;
+  text-transform: none;
+}
+aside .category .item a.active {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  aside .category {
+    flex-direction: row;
+  }
+}

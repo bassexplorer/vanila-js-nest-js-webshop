@@ -1,0 +1,7 @@
+:root {
+  --accent-color: #bd0000;
+  --link-color: #aaaaaa;
+  --link-hover-color: #2e2e2e;
+
+  --font-color: var(--link-hover-color);
+}

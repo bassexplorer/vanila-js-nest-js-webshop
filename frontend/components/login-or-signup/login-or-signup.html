@@ -1,0 +1,81 @@
+<!-- 
+    The login page is highly influenced by a codpen project snipet
+    that can be reached here: 
+    https://codepen.io/FlorinPop17/pen/vPKWjd
+ -->
+
+<main class="container">
+
+    <div class="login-or-signup-container"
+         s
+         id="container">
+        <div class="form-container sign-up-container">
+            <form action="#"
+                  id="signupForm">
+                <h1>Create Account</h1>
+
+                <span>and buy usless stuff!</span>
+                <input type="text"
+                       name="firstName"
+                       required
+                       placeholder="First Name" />
+                <input type="text"
+                       name="lastName"
+                       required
+                       placeholder="Last Name" />
+                <input type="email"
+                       name="email"
+                       required
+                       placeholder="Email" />
+                <input type="password"
+                       name="password"
+                       required
+                       placeholder="Password" />
+                <button class="btn black"
+                        id="signupButton"
+                        type="button">Sign Up</button>
+            </form>
+        </div>
+
+        <div class="form-container sign-in-container">
+            <form action="#"
+                  id="loginForm">
+                <h1>Sign in</h1>
+
+                <span>or not, depends on you *MAGIC* </span>
+                <input type="email"
+                       name="email"
+                       placeholder="Email" />
+                <input type="password"
+                       name="password"
+                       placeholder="Password" />
+
+                <div class="error"></div>
+
+                <a href="#">Forgot your password?</a>
+                <button class="btn black"
+                        id="loginButton"
+                        type="button">Sign In</button>
+            </form>
+        </div>
+
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep losing money with us please login with your personal info</p>
+                    <button class="btn white ghost"
+                            id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Welcome, Friend!</h1>
+                    <p>Enter your personal details and start I deducting money from your account 😇</p>
+                    <button class="btn white ghost"
+                            id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>

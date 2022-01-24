@@ -1,0 +1,12 @@
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+}

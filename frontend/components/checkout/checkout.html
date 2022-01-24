@@ -1,0 +1,57 @@
+<div class="checkout container">
+     <div class="submitting">
+          <div class="loader"></div>
+          <div>loading...</div>
+     </div>
+     <!-- Title -->
+     <div class="title">
+
+          <h3>Checkout</h3>
+          <div>Please fill out every field</div>
+     </div>
+
+     <form action="#"
+           id="checkout">
+
+          <input type="text"
+                 name="name"
+                 required
+                 class="customer-name"
+                 placeholder="Full Name" />
+
+          <input type="text"
+                 name="address"
+                 required
+                 class="customer-address"
+                 placeholder="Address" />
+
+          <input type="text"
+                 name="zipcode"
+                 required
+                 class="customer-zipcode"
+                 placeholder="Zipcode" />
+
+          <input type="text"
+                 name="city"
+                 required
+                 class="customer-city"
+                 placeholder="City" />
+
+          <input type="text"
+                 name="country"
+                 required
+                 class="customer-country"
+                 placeholder="Country" />
+
+          <textarea autocapitalize="sentences"
+                    row="10"
+                    name="comment"
+                    class="customer-comment"
+                    placeholder="Additional comment"></textarea>
+
+          <a class="btn black"
+             type="button">Order</a>
+     </form>
+
+
+</div>

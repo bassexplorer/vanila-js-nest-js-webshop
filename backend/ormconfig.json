@@ -1,0 +1,24 @@
+{
+   "type": "mysql",
+   "host": "localhost",
+   "port": 30001,
+   "username": "school_project_user",
+   "password": "school_project_password",
+   "database": "school_project_nodejs_db",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/**/*.entity.{ts,js}"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}

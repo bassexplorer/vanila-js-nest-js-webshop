@@ -1,0 +1,21 @@
+mode: dev
+server:
+  host: localhost
+  port: 3000
+db:
+  type: 'mysql'
+  database: 'school_project_nodejs_db'
+  host: localhost
+  port: 30001
+  user: 'school_project_user'
+  password: 'school_project_password'
+  migrationsRun: false # Run the migration scripts on reload/save
+  synchronize: false # without migration the database is synced with the entities on reload/save
+  ssl: false
+  logging: true
+  dropSchema: false # dropt the database on reload/save
+
+jwt:
+  ignoreExpiration: false
+  expiresIn: '60m'
+  secret: 'secretsecret'
